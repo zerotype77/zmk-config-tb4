@@ -1,0 +1,37 @@
+/*
+ * Manufacture : 2026 Zerotype
+ * Copyright (c) 2024 The ZMK Contributors
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/* 
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/rgb.h>
+*/
+
+
+#define TIMEOUT 300
+
+
+/ {
+
+    keymap: keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            display-name = "default";
+            bindings = <
+                            &kp 1       &kp 2          &kp 3
+                            &kp 4       &kp 5          &kp 0
+            >;
+
+        };
+
+        };
+};
+
+
