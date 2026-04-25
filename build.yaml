@@ -10,6 +10,6 @@
  include:
    - board: nice_nano
      shield: tb4
-     snippet: zmk-usb-logging
+#     snippet: zmk-usb-logging
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: tb4_studio
