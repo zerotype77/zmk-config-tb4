@@ -1,0 +1,14 @@
+# Manufacture : 2026 Zerotype
+# Copyright (c) 2026 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+
+
+if SHIELD_TB4
+
+config ZMK_KEYBOARD_NAME
+    default "tb4"
+	
+
+
+endif
