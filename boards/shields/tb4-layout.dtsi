@@ -1,0 +1,26 @@
+/*
+ * Manufacture : 2026 Zerotype
+ * Copyright (c) 2024 The ZMK Contributors
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default";
+
+        kscan = <&kscan0>;
+        transform = <&matrix_transform0>;
+
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            , <&key_physical_attrs 100 100  100    0       0     0     0>
+            , <&key_physical_attrs 100 100  200    0       0     0     0>
+            , <&key_physical_attrs 100 100    0  100       0     0     0>
+            , <&key_physical_attrs 100 100  100  100       0     0     0>
+            , <&key_physical_attrs 100 100  200  100       0     0     0>
+            ;
+    };
+};
