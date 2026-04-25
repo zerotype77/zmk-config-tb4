@@ -1,0 +1,7 @@
+# Manufacture : 2026 Zerotype
+# Copyright (c) 2026 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_tb4
+    def_bool $(shields_list_contains,tb4)
+
